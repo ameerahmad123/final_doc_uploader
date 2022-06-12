@@ -101,7 +101,7 @@ onSubmit = async (event) => {
             target="_blank"
             rel="noopener noreferrer"
             href={`https://gateway.ipfs.io/ipfs/${this.state.memeHash}`}
-            download > click here to download the uploaded image
+            download > click here to download the uploaded File
           </a>
         </nav>
         <div className="container-fluid mt-5">
@@ -114,7 +114,7 @@ onSubmit = async (event) => {
                   <img src={`https://gateway.ipfs.io/ipfs/QmSVPV4ccnNiz65PmPZt76pfpGZza6mK7Czh5sxyFzGxoV`}/>
                 </a>
                 <p>&nbsp;</p>
-                <h2>New image</h2>
+                <h2>Select New File</h2>
 
                   <form onSubmit={this.onSubmit} >
                   <input type='file' onChange={this.captureFile}/>
